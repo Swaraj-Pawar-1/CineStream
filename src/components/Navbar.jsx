@@ -5,12 +5,10 @@ const Navbar = () => {
   return (
     <div className="flex items-center space-x-8 border-b border-gray-200 px-6 py-4 bg-white sticky top-0 z-50 shadow-sm">
       
-      {/* Logo */}
       <div className="flex items-center space-x-3">
         <FaClapperboard className="text-blue-500 text-3xl" />
       </div>
 
-      {/* Links */}
       <div className="flex items-center space-x-8">
         <Link
           to="/"
